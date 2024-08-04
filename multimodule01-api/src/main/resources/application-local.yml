@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+    import:
+      - application-jpa-local.yml
+  batch:
+    job:
+      name: ${job.name:testBatchJob}
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+#    org.hibernate.type: trace
