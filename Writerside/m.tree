@@ -8,4 +8,6 @@
 
     <toc-element topic="starter-topic.md"/>
     <toc-element topic="multimodule-setting.md"/>
+    <toc-element topic="API_Reference.md">
+    </toc-element>
 </instance-profile>
